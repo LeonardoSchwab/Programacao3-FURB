@@ -1,0 +1,73 @@
+body 
+{
+    background-color : cadetblue;
+    margin : 15px 180px;    
+    width: inherit;
+    height: inherit;
+    color: white;    
+}
+
+.flex-container 
+{
+    display: flex;
+    width: inherit;
+    height: 60%;
+}
+
+.flexNav
+{
+    display: flex;
+    flex-direction: column;
+    width: 15%;    
+}
+
+a
+{
+    margin: auto;
+    color : white;
+}
+
+.center
+{
+    display:flex;
+    justify-content:center; 
+    align-items: center;   
+}
+
+.bordaVermelha
+{
+    border: solid red 15px;
+}
+
+.bordaPreta
+{
+    border : solid black 15px;
+}
+
+main 
+{
+    margin-left : 10px;        
+    width: -webkit-fill-available;
+    padding-left: 1%;
+    background-color: white;
+    color: black;
+    font-size: large;    
+}
+
+header
+{
+    margin-bottom: 10px;
+    height: 15%;        
+}
+
+footer
+{
+    margin-top : 10px;    
+    height: 10%;
+    padding-left: 1%;        
+}
+
+.fundoAzul
+{
+    background-color: rgb(38, 38, 241);
+}
