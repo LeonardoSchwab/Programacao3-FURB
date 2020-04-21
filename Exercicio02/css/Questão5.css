@@ -1,0 +1,58 @@
+form div{
+    display: flex;
+    flex-direction: row;    
+}
+
+input[type=text]{
+    width: 20%;
+    padding: 10px;
+    margin-left: 1%;    
+    border: solid darkgreen;        
+}
+
+input[type=text]:focus{
+    background-color: lightgreen;
+}
+
+input[type=button]{
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: greenyellow;
+}
+
+input[type=textarea]{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    margin-left: 1%;    
+    margin-top: 5%;
+    border: solid darkgreen;        
+    font-size: larger;
+}
+
+label{
+    margin-left: 1%;
+    padding: 10px;
+    font-size: larger;
+}
+
+@media screen and (max-width: 900px) {
+    form div{
+        flex-direction: column;
+    }
+
+    input[type=text]{
+        width: 100%;
+    }
+
+    input[type=button]{
+        width: 100%;
+    }
+
+    input[type=textarea]{
+        width: 100%;
+    }
+}

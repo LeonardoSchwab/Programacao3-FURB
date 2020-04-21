@@ -1,0 +1,34 @@
+.borda{
+    border: solid 10px red;
+}
+
+nav ul li ul{
+    display: none;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;    
+}
+
+nav ul li{
+    margin: auto;
+}
+
+table{
+    margin: auto;
+}
+
+table tr td:hover{
+    border: solid 5px green;
+}
+
+.textoFilme{
+    font-family: fantasy;
+    font-size: 14px;
+    color: darkcyan;
+}
