@@ -1,0 +1,123 @@
+html{
+    height: auto;
+}
+
+body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer{
+    height: 100px;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.tamanho_maximo{
+    height: 100%;
+}
+
+.background{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+
+nav{
+    position: relative;    
+    width: 100%;
+    height: 25%;
+    background-color: gray;    
+}
+
+nav ul{
+    list-style: none;    
+    display: flex;
+    flex-direction: row;       
+}
+
+nav ul li{
+    width: 15%; 
+    text-align: center;
+}
+
+nav ul li a{    
+    color: white;
+    
+}
+
+.centralizar{
+    text-align: center;    
+}
+
+.nome{
+    color: white;
+    height: 100%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.background_secao{
+    background-color: gray;    
+}
+
+.secao{
+    height: 100%;
+}
+
+.tamanho_secao{
+    height: 500px;
+}
+
+.espaco_secao{
+    padding-top: 50px;
+    background-color: white;
+}
+
+.estilo_secao{
+    border: 5px solid black;
+}
+
+.p_secao{
+    color: white;
+    padding-left: 5%;
+}
+
+.ul_secao{ 
+    padding-left: 10%;
+    list-style: none;
+}
+
+section{
+    color: white;
+    font-size: large;
+}
+
+.imagem{
+    width: inherit;
+    height: 379px;
+}
+
+h2{
+    padding-bottom: 15px;
+}
+
+input{
+    width: 90%;
+}
+
+textarea{
+    width: 90%;
+    margin-left: 7px;
+}
+
+.espaco_form{
+    margin-bottom: 10px;
+}
+
+#ERRO{
+    color: darkred;
+}
