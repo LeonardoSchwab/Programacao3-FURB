@@ -121,3 +121,26 @@ textarea{
 #ERRO{
     color: darkred;
 }
+
+.background_login{
+    background-color: black;
+}
+
+.login{
+    
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.form_login{
+    text-align: center;
+    padding-top: 10%;
+    color:white;
+}
+
+#botaoEnviar{
+    margin-top: 10%;
+    height: 50px;
+}
