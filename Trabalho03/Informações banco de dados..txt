@@ -1,0 +1,20 @@
+Nome da base de dados deve ser RestApi.
+
+create table produto (
+  Id SERIAL primary key not null,
+  Nome varchar(255),
+  Preco numeric(10,2)
+)
+
+create table usuario (
+  Id SERIAL primary key not null,
+  Login varchar(255),
+  Senha varchar(255)
+)
+
+create table usuario (
+  Id SERIAL primary key not null,
+  Nome varchar(255),
+  Marca varchar(255),
+  Modelo varchar(255)
+)
